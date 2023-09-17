@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import ComplexNavbar from './components/navbar'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-        <h1 className="text-3xl font-bold underline">
-      SIH 2023!
-    </h1>
+    <ComplexNavbar></ComplexNavbar>
     </>
   )
 }
